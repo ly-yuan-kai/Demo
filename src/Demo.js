@@ -25,7 +25,6 @@ class Demo extends Component {
   handleOnClickClear(e) {
     this.setState({
       name: '',
-      email: '',
       gender: '',
     });
     alert('onClick Event: Clear input!!');
